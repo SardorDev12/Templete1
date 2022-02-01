@@ -209,5 +209,8 @@ body {
     .right{
         visibility: hidden;
     }
+    .section-left {
+        visibility: hidden;
+    }
 
   }
