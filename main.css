@@ -205,6 +205,9 @@ body {
   @media (max-width: 767px){
     .header-window {
       width: 100vw;
-      margin: 0 auto;
     }
+    .right{
+        visibility: hidden;
+    }
+
   }
