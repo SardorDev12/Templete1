@@ -191,4 +191,20 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+@media (min-width: 992px){
+    .header-window {
+      width: 100%;
+    }
+    @media (min-width: 768px) and 
+           (max-width: 991px){
+             .header-window {
+               width: 460px;
+             }
+           }
+  }
+  @media (max-width: 767px){
+    .header-window {
+      width: 100vw;
+      margin: 0 auto;
+    }
+  }
